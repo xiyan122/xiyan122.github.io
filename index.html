@@ -31,7 +31,7 @@
   
     <link rel="stylesheet" href="//at.alicdn.com/t/font_2421060_8z08qcz5sq3.css">
   
-  <link rel="stylesheet" href="/css/style.css?v=1660963738385">
+  <link rel="stylesheet" href="/css/style.css?v=1660967405389">
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -57,8 +57,8 @@
     </div>
     <div class="nexmoe-count">
         <div class="nexmoe-count-item"><span>Articles</span>2 <div class="item-radius"></div><div class="item-radius item-right"></div> </div>
-        <div class="nexmoe-count-item"><span>Tags</span>0<div class="item-radius"></div><div class="item-radius item-right"></div></div>
-        <div class="nexmoe-count-item"><span>Categories</span>0<div class="item-radius"></div><div class="item-radius item-right"></div></div>
+        <div class="nexmoe-count-item"><span>Tags</span>2<div class="item-radius"></div><div class="item-radius item-right"></div></div>
+        <div class="nexmoe-count-item"><span>Categories</span>1<div class="item-radius"></div><div class="item-radius item-right"></div></div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
         
@@ -136,9 +136,40 @@
 </div>
   
   
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Categories</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/教程/">教程</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
 
   
   
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 10px;">教程</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 10px;">网站</a>
+    </div>
+    
+  </div>
+
   
   
   <div class="nexmoe-widget-wrap">
@@ -200,21 +231,29 @@
         
         <article>
             
-                <h1 id="网站搭建"><a href="#网站搭建" class="headerlink" title="网站搭建"></a><strong>网站搭建</strong></h1><h2 id="本文目录"><a href="#本文目录" class="headerlink" title="本文目录"></a><strong>本文目录</strong></h2><ul>
-<li>安装Node.js</li>
-<li>添加国内镜像</li>
-<li>安装Git</li>
-<li>注册Github账号</li>
-<li>创建Git仓库</li>
-<li>安装Hexo</li>
-<li>配置本地Hexo</li>
-<li>连接Github与本地</li>
-<li>写文章、发布文章</li>
-<li>MarkDown文章编辑器说明</li>
-<li>更换自己喜欢的Hexo主题</li>
-<li>我的博客源代码</li>
-<li>结语</li>
+                <h1 id="网站搭建"><a href="#网站搭建" class="headerlink" title="网站搭建"></a><strong>网站搭建</strong></h1><h2 id="本文目录-generated-with-DocToc"><a href="#本文目录-generated-with-DocToc" class="headerlink" title="本文目录 generated with DocToc"></a><strong>本文目录</strong> <em>generated with <a target="_blank" rel="noopener" href="https://github.com/thlorenz/doctoc">DocToc</a></em></h2><!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<ul>
+<li><a href="#%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA"><strong>网站搭建</strong></a><ul>
+<li><a href="#%E6%9C%AC%E6%96%87%E7%9B%AE%E5%BD%95"><strong>本文目录</strong></a></li>
+<li><a href="#1%E5%AE%89%E8%A3%85nodejs"><strong>1.安装node.js</strong></a></li>
+<li><a href="#2%E6%B7%BB%E5%8A%A0%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F"><strong>2.添加国内镜像</strong></a></li>
+<li><a href="#3%E5%AE%89%E8%A3%85git"><strong>3.安装Git</strong></a></li>
+<li><a href="#4%E6%B3%A8%E5%86%8Cgithub%E8%B4%A6%E5%8F%B7"><strong>4.注册Github账号</strong></a></li>
+<li><a href="#5%E5%88%9B%E5%BB%BAgit%E4%BB%93%E5%BA%93"><strong>5.创建git仓库</strong></a></li>
+<li><a href="#6%E5%AE%89%E8%A3%85hexo"><strong>6.安装Hexo</strong></a></li>
+<li><a href="#7%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0hexo"><strong>7.配置本地hexo</strong></a></li>
+<li><a href="#8%E8%BF%9E%E6%8E%A5github%E4%B8%8E%E6%9C%AC%E5%9C%B0"><strong>8.连接Github与本地</strong></a></li>
+<li><a href="#9%E6%9C%AC%E5%9C%B0%E8%BF%9E%E6%8E%A5github"><strong>9.本地连接Github</strong></a></li>
+<li><a href="#10%E5%86%99%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0"><strong>10.写文章、发布文章</strong></a></li>
+<li><a href="#11markdown%E6%96%87%E7%AB%A0%E7%BC%96%E8%BE%91%E5%99%A8%E8%AF%B4%E6%98%8E"><strong>11.MarkDown文章编辑器说明</strong></a></li>
+<li><a href="#12%E6%9B%B4%E6%8D%A2%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84hexo%E4%B8%BB%E9%A2%98"><strong>12.更换自己喜欢的Hexo主题</strong></a></li>
+<li><a href="#%E7%BB%93%E8%AF%AD"><strong>结语</strong></a></li>
 </ul>
+</li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <h2 id="1-安装node-js"><a href="#1-安装node-js" class="headerlink" title="1.安装node.js"></a><strong>1.安装node.js</strong></h2><h3 id="了解一下什么是Node-js："><a href="#了解一下什么是Node-js：" class="headerlink" title="了解一下什么是Node.js："></a>了解一下什么是Node.js：</h3><blockquote>
 <p>Node.js就是一个用于创建服务器端应用程序的运行系统，它可以轻松构建网络或其他事件驱动的应用程序服务器。</p>
 </blockquote>
@@ -1059,7 +1098,7 @@ The key fingerprint is:
 <script src="/lib/fancybox/js/jquery.fancybox.min.js"></script>
 
 
-<script src="/js/app.js?v=1660963738386"></script>
+<script src="/js/app.js?v=1660967405390"></script>
 
 <script src="https://unpkg.com/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>
