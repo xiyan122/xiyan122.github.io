@@ -23,17 +23,17 @@ function runtimeApp() {
             $("#nexmoe-header").css("display","block")
             $("#nexmoe-background").css("display","block")
         }
-        // let doc = document;
-        // let link = doc.createElement("link");
-        // link.setAttribute("rel", "stylesheet");
-        // link.setAttribute("type", "text/css");
-        // link.setAttribute("href", url);
-        // let heads = doc.getElementsByTagName("head");
-        // if (heads.length) {
-        //     heads[0].prepend(link);
-        // } else {
-        //     doc.documentElement.prepend(link);
-        // }
+        let doc = document;
+        let link = doc.createElement("link");
+        link.setAttribute("rel", "stylesheet");
+        link.setAttribute("type", "text/css");
+        link.setAttribute("href", url);
+        let heads = doc.getElementsByTagName("head");
+        if (heads.length) {
+            heads[0].prepend(link);
+        } else {
+            doc.documentElement.prepend(link);
+        }
     }
 }
 console.log("来源",getQueryVariable('from'))
