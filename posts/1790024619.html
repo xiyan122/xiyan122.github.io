@@ -16,17 +16,17 @@
     <meta name="baidu-site-verification" content="code-REclXPbzqP" />
 
   <link rel="shortcut icon" href="/images/head/head.jpg" type="image/png" />
-  <meta name="description" content="图片叠加：可以用来二次曝光 [toc] 题目如下：  利用MATLAB工具编写一段代码，实现一幅小尺寸彩色照片居中叠加于一幅大尺寸的彩色风景图上，彩色照片保留50%的透明度。  你需要将两张将要叠加的图片，分别命名为e1.jpg和e2.jpg，我使用的两张照片如下：   接下来，运行以下代码： clc,close all,clear all;  % 分别读取两幅彩色图像 % 注意I1要比I2大一些">
+  <meta name="description" content="图片叠加：可以用来二次曝光">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Matlab实现图片叠加">
 <meta property="og:url" content="http://xiyan122.github.io/posts/1790024619.html">
 <meta property="og:site_name" content="夕颜的小屋">
-<meta property="og:description" content="图片叠加：可以用来二次曝光 [toc] 题目如下：  利用MATLAB工具编写一段代码，实现一幅小尺寸彩色照片居中叠加于一幅大尺寸的彩色风景图上，彩色照片保留50%的透明度。  你需要将两张将要叠加的图片，分别命名为e1.jpg和e2.jpg，我使用的两张照片如下：   接下来，运行以下代码： clc,close all,clear all;  % 分别读取两幅彩色图像 % 注意I1要比I2大一些">
+<meta property="og:description" content="图片叠加：可以用来二次曝光">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cn.bing.com/images/search?view=detailV2&amp;ccid=QFdwl07%2f&amp;id=1C8280D2D75B8653FE4F0AA4FA7416EFB30A9059&amp;thid=OIP.QFdwl07_aviM1ch2KpyyFgHaEo&amp;mediaurl=https%3a%2f%2fwww.keaidian.com%2fuploads%2fallimg%2f190424%2f24110307_4.jpg&amp;exph=1200&amp;expw=1920&amp;q=%e5%9b%be%e7%89%87&amp;simid=608031476827389863&amp;FORM=IRPRST&amp;ck=8D9642E506965EDD50F890B71B499E49&amp;selectedIndex=7">
 <meta property="og:image" content="https://cn.bing.com/images/search?view=detailV2&amp;ccid=Mq9zt66l&amp;id=554BA9BB025216F1FBDE6FEB4EF8DFB2DF994341&amp;thid=OIP.Mq9zt66lU2fko_h2OWHIlAHaE8&amp;mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.32af73b7aea55367e4a3f8763961c894%3frik%3dQUOZ37Lf%252bE7rbw%26riu%3dhttp%253a%252f%252fimg95.699pic.com%252fphoto%252f50064%252f7148.jpg_wh860.jpg%26ehk%3d00VUYvoTnuinFTJXQYbpLwh3e%252bLPJE9vL7h5ELm0avA%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&amp;exph=574&amp;expw=860&amp;q=%e5%9b%be%e7%89%87&amp;simid=607995029727482492&amp;FORM=IRPRST&amp;ck=2E848027E816A281546868712B2E7A19&amp;selectedIndex=9">
 <meta property="article:published_time" content="2022-09-18T06:28:58.704Z">
-<meta property="article:modified_time" content="2022-09-18T06:29:52.459Z">
+<meta property="article:modified_time" content="2022-09-18T06:59:32.128Z">
 <meta property="article:author" content="Xiyan">
 <meta property="article:tag" content="光电图像处理,Matlab,图像叠加">
 <meta name="twitter:card" content="summary">
@@ -39,7 +39,7 @@
   
     <link rel="stylesheet" href="//at.alicdn.com/t/font_2421060_8z08qcz5sq3.css">
   
-  <link rel="stylesheet" href="/css/style.css?v=1663483669682">
+  <link rel="stylesheet" href="/css/style.css?v=1663484402628">
 <meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="夕颜的小屋" type="application/atom+xml">
 </head>
 
@@ -255,6 +255,7 @@
 
         <article>
             <p>图片叠加：可以用来二次曝光</p>
+<span id="more"></span>
 <p>[toc]</p>
 <p>题目如下：</p>
 <blockquote>
@@ -1071,7 +1072,7 @@ figure,imshow(I1);
 <script src="/lib/fancybox/js/jquery.fancybox.min.js"></script>
 
 
-<script src="/js/app.js?v=1663483669684"></script>
+<script src="/js/app.js?v=1663484402629"></script>
 
 <script src="https://unpkg.com/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>
@@ -1100,6 +1101,10 @@ figure,imshow(I1);
 <!-- hexo injector body_end start -->
 <script src="/js/clock.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script src="/js/search.js"></script>
+
 <script src="https://unpkg.com/clipboard@2.0.8/dist/clipboard.min.js"></script>
 
 <script src="/lib/codeBlock/codeBlockFuction.js"></script>
@@ -1111,10 +1116,6 @@ figure,imshow(I1);
 <script src="/lib/codeBlock/codeShrink.js"></script>
 
 <link rel="stylesheet" href="/lib/codeBlock/matery.css">
-
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
-<script src="/js/search.js"></script>
 
 <script src="/js/webapp.js"></script>
 <!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/tororo.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
